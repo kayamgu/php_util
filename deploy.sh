@@ -6,7 +6,7 @@
 # ----------------------
 
 date >> /home/site/test.txt
-ls --full-time -l /home/site/wwwroot/ >> /home/site/test.txt
+ls --full-time -la /home/site/wwwroot/ >> /home/site/test.txt
 tail -1 /home/site/repository/.git/logs/HEAD
 
 
