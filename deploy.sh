@@ -5,7 +5,8 @@
 # Version: 1.0.17
 # ----------------------
 
-date >> /home/site/date.txt
+date >> /home/site/test.txt
+ls --full-time -l /home/site/wwwroot/ >> /home/site/test.txt
 
 # Helpers
 # -------
